@@ -36,9 +36,6 @@ Before running the project, ensure you have the following installed:
     php artisan key:generate
     ```
 6. Set up your database configuration in the `.env` file.
-    ```bash
-    cp .env.example .env
-    ```
 7. Run the database migrations and seed:
     ```bash
     php artisan migrate --seed
